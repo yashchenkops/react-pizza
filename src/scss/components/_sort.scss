@@ -2,16 +2,18 @@
 
 .sort {
   position: relative;
+  
   &__label {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    gap: 8px;
 
     svg {
-      margin-right: 8px;
+      align-self: center;
     }
 
     b {
-      margin-right: 8px;
+      white-space: nowrap;
     }
 
     span {
