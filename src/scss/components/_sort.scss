@@ -2,7 +2,8 @@
 
 .sort {
   position: relative;
-  min-width: 253px;
+  min-width: max-content;
+  margin-top: calc((48px - 23px) / 2);
   
   &__label {
     display: flex;
@@ -33,7 +34,6 @@
     border-radius: 10px;
     overflow: hidden;
     padding: 10px 0;
-    width: 160px;
 
     ul {
       overflow: hidden;

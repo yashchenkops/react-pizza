@@ -68,6 +68,7 @@
 
     &:hover {
       background-color: $orange;
+      color: #fff;
 
       &,
       span {
@@ -153,4 +154,8 @@
       }
     }
   }
+}
+
+.go-back-btn {
+  color: #232323;
 }
