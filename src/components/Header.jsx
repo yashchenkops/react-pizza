@@ -16,7 +16,7 @@ function Header() {
         </Link>
         <div className="header__cart">
           <Link to="/cart" className="button button--cart">
-            <span>520 ₴</span>
+            <span className="button__price">520 ₴</span>
             <div className="button__delimiter"></div>
             <svg
               width="18"
@@ -47,7 +47,7 @@ function Header() {
                 strokeLinejoin="round"
               />
             </svg>
-            <span>3</span>
+            <span className="button__quantity">3</span>
           </Link>
         </div>
       </div>
